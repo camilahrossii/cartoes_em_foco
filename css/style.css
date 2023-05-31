@@ -215,14 +215,34 @@ form {
 }
 
 form label {
-    margin: 10px 0;
+    font-size: .9em;
+    margin: 25px 0 10px 0;
 }
 
 form input, textarea {
     border-radius: 10px;
     color: var(--gray);
-    padding: 5px;
+    padding: 5px; 
     border: none;
+}
+
+.txt-error {
+    display: none;
+    color: rgb(197, 3, 3);
+    font-size: .8em;
+    transition: all .5s;
+}
+
+/* #name-error {
+    display:none;
+} */
+
+form .error {
+    border: 2px solid rgb(197, 3, 3);
+}
+
+form .success {
+    border: 2px solid var(--green);
 }
 
 form input:focus,
