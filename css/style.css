@@ -230,12 +230,9 @@ form input, textarea {
     display: none;
     color: rgb(197, 3, 3);
     font-size: .8em;
+    margin-top: 5px;
     transition: all .5s;
 }
-
-/* #name-error {
-    display:none;
-} */
 
 form .error {
     border: 2px solid rgb(197, 3, 3);
