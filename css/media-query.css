@@ -1,13 +1,48 @@
-/* Todas as demais midias */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
-}
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-
-}
-
-@media screen and (min-width: 1200px) {
+@media (min-width: 760px) {
     
+    .header-container {
+        width: 40vw;
+    }
+
+    .header-container h1 {
+        font-size: 2em;
+    }
+
+    .header-container p {
+        font-size: 1.2em;
+    }
+    
+    .cards-content {
+        flex-direction: row;
+    }
+    
+    .card-container {
+        margin-top: 20px;
+    }
+    .about-us {
+        flex-direction: row;
+    }
+    
+    .about-us img {
+        width: 20%;
+    }
+    
+    .txt-about-us {
+        width: 50%;
+        margin: 3em;
+    }
+    
+    .contact-form {
+        padding: 10px 0;
+    }
+    
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    footer {
+        padding: 10px 0;
+    }
 }
