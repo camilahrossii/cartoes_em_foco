@@ -19,6 +19,8 @@
     
     .card-container {
         margin-top: 20px;
+        width: 30vw;
+        height: 550px;
     }
     .about-us {
         flex-direction: row;

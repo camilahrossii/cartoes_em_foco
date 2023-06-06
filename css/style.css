@@ -108,8 +108,10 @@ main .content h2 {
 
 .card-container {
     background-color: var(--gray);
+    margin-top: 20px;
     border-radius: 15px;
     padding: 40px 25px;
+    width: 100%;
 }
 
 .cards-content img {
